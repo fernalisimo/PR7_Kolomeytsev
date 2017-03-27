@@ -1,0 +1,19 @@
+<datastore-indexes>
+    <datastore-index kind="Conference" ancestor="false" source = "auto">
+        <property name="city" direction="asc"/>
+        <property name="maxAttendees" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Conference" ancestor="false" source = "auto">
+        <property name="city" direction="asc"/>
+        <property name="maxAttendees" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Conference" ancestor="false" source = "auto">
+        <property name="city" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Conference" ancestor="false" source = "auto">
+        <property name="maxAttendees" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+</datastore-indexes>
